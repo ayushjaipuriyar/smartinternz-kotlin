@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/display_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/display_result"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/first_name2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/display_result" />
+
+    <TextView
+        android:id="@+id/set_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/first_name"
+        app:layout_constraintStart_toEndOf="@id/first_name"
+        app:layout_constraintTop_toTopOf="@id/first_name" />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/last_name2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/first_name" />
+
+    <TextView
+        android:id="@+id/set_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/last_name"
+        app:layout_constraintStart_toEndOf="@id/last_name"
+        app:layout_constraintTop_toTopOf="@id/last_name" />
+
+    <TextView
+        android:id="@+id/college_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/college2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/last_name" />
+
+    <TextView
+        android:id="@+id/set_college_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/college_name"
+        app:layout_constraintStart_toEndOf="@id/college_name"
+        app:layout_constraintTop_toTopOf="@id/college_name" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/gender2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/college_name" />
+
+    <TextView
+        android:id="@+id/set_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/gender"
+        app:layout_constraintStart_toEndOf="@id/gender"
+        app:layout_constraintTop_toTopOf="@id/gender" />
+
+
+    <TextView
+        android:id="@+id/is_college_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/is_college_completed2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/set_is_college_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/is_college_completed"
+        app:layout_constraintStart_toEndOf="@id/is_college_completed"
+        app:layout_constraintTop_toTopOf="@id/is_college_completed" />
+
+    <TextView
+        android:id="@+id/are_you_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/are_you_happy2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/is_college_completed" />
+
+    <TextView
+        android:id="@+id/set_are_you_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/are_you_happy"
+        app:layout_constraintStart_toEndOf="@id/are_you_happy"
+        app:layout_constraintTop_toTopOf="@id/are_you_happy" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
